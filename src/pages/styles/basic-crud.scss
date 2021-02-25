@@ -1,0 +1,50 @@
+.crud{
+    form{
+        label{}
+        input{
+            margin-top: 30px;
+            margin-left: 20px;
+           outline: none;
+           border-radius: 10px;
+           border:1px solid rgba($color: #000000, $alpha: .6);
+           padding: 10px;
+        }
+        button{
+            background: #787ff6;
+            padding: 10px;
+            font-size: 18px;
+            outline: none;
+            border: none;
+            color:#fff;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    }
+}
+.taskList{
+    margin-top: 30px;
+    padding: 40px;
+    border:0.5px solid rgba($color: #000000, $alpha: .3);
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 30%;
+    .list{
+        display: flex;
+        div{
+            &:nth-child(1){
+                width: 300px;
+                text-align: left;
+            }
+        }
+    }
+    // ul{
+    //     list-style: none;
+    //     display: flex;
+    //     margin-bottom: 10px;
+    //     li{
+    //         &:nth-child(2){
+    //             margin-left: 80px;
+    //         }
+    //     }
+    // }
+}
